@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.classiccinema" name="Classic Cinema" version="0.1.4" provider-name="Albert Lamut">
+<requires><import addon="xbmc.python" version="3.0.0"/></requires>
+<extension point="xbmc.python.pluginsource" library="main.py"><provides>video</provides></extension>
+<extension point="xbmc.addon.metadata"><summary lang="en_GB">Classic film catalogue</summary><description lang="en_GB">Browse classic films by title, year, and decade. Streams are added after source and rights review.</description><platform>all</platform><license>GPL-3.0-or-later</license><email>albertlamut@gmail.com</email></extension>
+</addon>
